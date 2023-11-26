@@ -55,7 +55,7 @@ piping<-new_dataset %>%
 
 head(new_dataset)
 
-#TASK: revise this code chunk using piping
+#TASK: the code chunk has been revised using piping
 new_dataset %>%
   arrange(date) %>%
   filter(spi1 < 80) %>%
